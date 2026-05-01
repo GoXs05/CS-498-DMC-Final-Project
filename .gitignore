@@ -1,0 +1,28 @@
+coverage/
+*.log
+
+# dependencies
+node_modules/
+
+# frontend env files
+.env
+
+# build output
+dist/
+build/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# backend / python stuff not being pushed
+backend/
+backend_env/
+__pycache__/
+*.pyc
+
+# OS/editor
+.DS_Store
+.vscode/

@@ -1,0 +1,5 @@
+{
+  "name": "California Atmospheric & Population Analytics",
+  "description": "Interactive visualization of atmospheric measurements and population data across California counties.",
+  "requestFramePermissions": []
+}

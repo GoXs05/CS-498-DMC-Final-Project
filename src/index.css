@@ -1,0 +1,45 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-brand-primary: #0f172a;
+  --color-brand-secondary: #334155;
+  --color-brand-accent: #3b82f6;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: transparent !important;
+}
+
+.leaflet-interactive {
+  transition: all 0.2s ease;
+}
+
+@import "leaflet/dist/leaflet.css";
+
+@theme {
+  --color-brand-primary: #0f172a;
+  --color-brand-secondary: #334155;
+  --color-brand-accent: #3b82f6;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: transparent !important;
+}
+
+.leaflet-interactive {
+  transition: all 0.2s ease;
+}
+
