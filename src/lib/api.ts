@@ -1,6 +1,6 @@
 import { CountyStats, StatewideAnalytics } from "../types";
 
-const API_BASE = import.meta.env.VITE_API_BASE_URL || "http://localhost:8000/api";
+const API_BASE = "http://34.55.126.122:8000/api" || "http://localhost:8000/api";
 
 export async function fetchStatewideAnalytics(): Promise<StatewideAnalytics> {
   const res = await fetch(`${API_BASE}/statewide`);
